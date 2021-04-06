@@ -1,25 +1,42 @@
+body {
+	background-color: slateblue;
+}
+
 h1 {
-	color: purple;
+	color: rgb(200, 200, 200);
 }
 
-h2 {
-	color: grey;
+img {
+	max-width: 100%;
+	background-color: purple;
+	height: 300px;
+}
+.image {
+	background-color: purple;
 }
 
-.fakeimg {
-	height: 200px;
-	background: #aaa;
+.fila {
+	border: 1px solid black;
+	height: 100px;
+	align-items: center;
+	background-color: grey;
 }
 
-.description {
-	text-align: justify;
-	width: 300px;
+.icon {
+	background-color: slategray;
+	border: 1px red solid;
 }
-#fila-1 {
-	background-color: darkslategray;
+.seccion-2 {
+	background: darkcyan;
+	border: 1px red solid;
 }
-
-#titulo {
-	margin-bottom: 0;
-	background-color: hotpink;
+.seccion-3 {
+	background-color: darkred;
+	border: 4px dotted wheat;
+}
+#seccion-2 {
+	height: 400px;
+}
+#seccion-3 {
+	height: 300px;
 }
